@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+
+.homepage{
+    height: 100vh;
+    margin-top: 200px;   
+    margin-left: 60px;
+    width:100%;
+    letter-spacing: 5px;
+}
+
+
+
+
+.textZone h1{
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    color:  #950740;
+    animation:fadeIn 0.5s backwards;
+
+    &::before{
+        content: "<h1>";
+        font-family: 'La Belle Aurore';
+        color:#c1bd3d;
+        font-size: 25px;
+        position: absolute;
+        margin-top: -40px;
+        animation:fadeIn 0.5s backwards;
+
+        // left:15px;
+        // opacity: 0.6;
+    }
+
+    &::after{
+        content: "</h1>";
+        font-family: 'La Belle Aurore';
+        color:#c1bd3d;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 60px;
+        animation:fadeIn 0.5s backwards;
+
+        // left:15px;
+        // opacity: 0.6;
+        
+    }
+}
+
+
+
+.textZone h1 span{
+    color:#C3073F;
+    animation:fadeIn 0.5s backwards;
+
+}
+
+#rotate{
+    color: #950740!important;
+    animation: rotateIn 0.5s linear both!important;
+}
+
+
+.textZone h2{
+    color:aliceblue;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation:fadeIn 0.5s backwards;
+
+
+
+}
+
+
+.homepage{
+    display: flex;
+    
+    
+}
+
+
+.big img{
+    margin-left: 300px;
+    width: 300px;
+    position: relative;
+    bottom: 70px;
+    
+    // margin-bottom: 100px;
+
+}
+
+.bigLogo{
+    animation: rotateIn 1s 1s;
+}
+
+
+.btn{
+    border:  1px solid #c1bd3d;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    font-weight:400!important;
+    padding: 8px 15px;
+    &:hover{
+        background: #c1bd3d;
+        font-weight: 400;
+    }
+    font-family: 'Montserrat', sans-serif;
+}
+

@@ -1,0 +1,135 @@
+.textzone h1{
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    color:  #950740;
+    animation:fadeIn 0.5s backwards;
+    &::before{
+        content: "<h1>";
+        font-family: 'La Belle Aurore';
+        color:#c1bd3d;
+        font-size: 25px;
+        position: absolute;
+        margin-top: -40px;
+        animation:fadeIn 0.5s backwards;
+
+        // left:15px;
+        // opacity: 0.6;
+    }
+    &::after{
+        content: "</h1>";
+        font-family: 'La Belle Aurore';
+        color:#c1bd3d;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 60px;
+        left: 0;
+        margin-left: 56px;
+        animation:fadeIn 0.5s backwards;
+
+        // left:15px;
+        // opacity: 0.6;
+        
+    }
+    
+}
+
+.textzone{
+    margin-top: 150px;   
+    margin-left: 60px;
+    width:100%;
+}
+
+
+
+.textzone h1 span{
+    color:#C3073F;
+    animation:fadeIn 0.5s backwards;
+
+}
+
+.textzone h2{
+    color: aliceblue;
+    margin-top: 100px;
+    font-weight:lighter;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    // animation: fadeIn 0.5s backwards;
+    line-height: 22px;
+
+}
+
+
+.aboutPage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+}
+
+.tubeLight{
+    margin-right: 300px;
+    margin-top: 250px;
+}
+
+.tubeLight h2{
+    font-family: coolVetica;
+    font-weight: 300;
+    font-size: 90px;
+    letter-spacing: 10px;
+}
+
+.tubeLight h2{
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0008);
+    line-height: 1em;
+    outline: none;
+    animation: animate 5s linear ;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes animate{
+    0%,18%,20%,30.2%,50.1%,60%,78.9%,65.1%,80%,90.1%,92%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4;
+        
+    }
+}
+
+.tubeLight h2 span{
+    cursor: pointer;
+}
+
+.tubeLight h2 span:hover{
+    animation: hovEffect 1s linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hovEffect {
+    0%,18%,20%,30.2%,50.1%,60%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4;
+    }
+    
+    18.1%,20.1%,30%,50%,60.1%,100%{
+        color: #0e3742;
+        text-shadow: none;
+    }
+    
+}

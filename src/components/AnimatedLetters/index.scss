@@ -1,0 +1,22 @@
+.text-animate{
+    display: inline-block;
+    // opacity: 0;
+    animation: fadeIn 1s 1s;
+    animation-fill-mode: forwards;
+    // min-width: 10px;
+
+}
+
+@for $i from 1 through 30{
+    .text-animate._#{$i}{
+        
+        animation-delay: #{$i/10}s!important;
+        animation-fill-mode: both;
+        cursor: pointer;
+    }
+}
+
+#important:hover{
+    animation: shakeY 1s;
+    animation-fill-mode: forwards;
+}

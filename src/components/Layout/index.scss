@@ -1,0 +1,54 @@
+.page{
+    color:white;
+    font-size: large;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+    padding-left: 100px;
+    
+    
+}
+
+.page h1{
+    color:white;
+}
+
+.app{
+    display: flex;
+}
+
+.tags{
+    color:#c1bd3d;
+    font-family: 'La Belle Aurore' ;
+    font-size: 25px;
+    animation:fadeIn 1s backwards;
+
+
+}
+
+.top-tags{
+    margin-top: 50px;
+}
+.bottom-tags{
+    margin-bottom: 50px;
+}
+
+
+
+.container1{
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top:5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}

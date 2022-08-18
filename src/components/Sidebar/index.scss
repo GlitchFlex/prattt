@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 70px;
+    height: 100vh;
+    background-color: #6F2232;
+    display:flex;
+    flex-direction: column;
+}
+
+img{
+    width:50px;
+    padding: 5px;
+    display:block;
+    margin: 10px auto;
+
+}
+
+.logos{
+    display :block;
+    width:55px !important;
+    margin : 0 auto!important;
+}
+
+.nav-bar nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    margin-top: 120px;
+    a{
+        // height: 100px;
+        font-size: 25px;
+        color: aliceblue!important;
+    }
+    
+    i{
+        transition: all 0.3s ease-in;
+    }
+    
+    a:hover{
+        color: yellow;
+        svg{
+             color: #a0a0a0;
+             opacity: 1;
+        }
+
+        
+    }
+
+    
+    
+    
+
+
+}
+
+.bigLogo{
+    animation: rotateIn 1s 1s;
+}

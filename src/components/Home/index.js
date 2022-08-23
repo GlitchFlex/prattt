@@ -21,7 +21,7 @@ const Home = ()=>{
             <br /> 
             <AnimatedLetters letterClass={letterClass} strArray={job} idx={13}/>
             <br /></h1>
-            <h2>FULLSTACK DEVELOPER</h2>
+            <h2>FULLSTACK DEVELOPER ON STEROID</h2>
             <a href="https://drive.google.com/file/d/1YgVGJoujNzLpadzOJmVDATfG6AzGhjJi/view?usp=sharing" target="_blank">
                 <button className="btn">DOWNLOAD CV</button>
             </a>
